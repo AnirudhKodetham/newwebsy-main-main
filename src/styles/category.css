@@ -1,0 +1,35 @@
+.category__item {
+  background: #fde4e4;
+  padding: 30px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.4s;
+  display: flex;
+  align-items: center; /* Center items vertically */
+}
+
+.category__item:hover {
+  transform: translateY(-15px);
+}
+
+.category__item img {
+  width: 60px; /* Adjust size as needed */
+  height: 60px; /* Adjust size as needed */
+  border-radius: 25%; /* Makes the image circular */
+  margin-right: 15px; /* Adds some space between icon and text */
+}
+
+@media only screen and (max-width: 768px) {
+  .category__item {
+    padding: 20px 15px;
+  }
+
+  .category__item img {
+    width: 40px;
+    height: 40px;
+  }
+
+  .category__item h6 {
+    font-size: 0.8rem;
+  }
+}
